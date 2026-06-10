@@ -1,40 +1,39 @@
-# ChatGPT Clone
+# ChatGPT Clone (React)
 
-A simple and responsive web application that mimics the interface of ChatGPT. This project provides a basic chat interaction experience with a clean, light-themed design.
+A modern React-based chatbot interface built with Vite and Bootstrap.
 
-## 🚀 Features
-- **Real-time Interaction**: Instant message display and simulated bot replies.
-- **Modern UI**: Built with Bootstrap 5 for responsiveness and custom CSS for a clean aesthetic.
-- **Simple Layout**: Clear separation between the chat history and the message input bar.
+## Features
+- Interactive chat interface.
+- Automatic scrolling to the latest message.
+- Predefined bot responses based on keywords.
+- Responsive design using Bootstrap.
 
-## 🛠️ Tech Stack
-- **HTML5**: Semantic structure.
-- **CSS3**: Custom layout and styling.
-- **JavaScript**: Core chat logic and DOM manipulation.
-- **Bootstrap 5**: Responsive framework.
+## Technologies Used
+- React
+- Vite
+- Bootstrap
+- CSS (Vanilla)
 
-## 📂 Project Structure
-```text
-chatgpt_clone/
-├── frontend/
-│   ├── static/
-│   │   ├── app.js      # Main chat logic
-│   │   └── style.css   # Custom styling
-│   └── templates/
-│       └── index.html  # Main UI template
-└── README.md
+## Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+
+### Installation
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running Locally
+To start the development server:
+```bash
+npm run dev
 ```
 
-## 🏃 How to Run
-To run the project locally, you can use any simple HTTP server. For example, using Python:
-
-1. Open your terminal in the project root.
-2. Run the server:
-   ```bash
-   python3 -m http.server 8000
-   ```
-3. Open your browser and navigate to:
-   `http://localhost:8000/frontend/templates/index.html`
-
-## 📝 License
-This project is open-source and free to use.
+### Building for Production
+To create a production build:
+```bash
+npm run build
+```

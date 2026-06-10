@@ -15,7 +15,7 @@
   gap: 10px;
 }
 
-.input {
+.input-container {
   max-width: 600px;
   margin: 20px auto;
 }
@@ -41,7 +41,17 @@
   border-bottom-left-radius: 2px;
 }
 
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
 .input-section input {
   padding: 10px;
   border-radius: 5px;
+}
+
+/* Add some smooth scrolling for the chat box */
+.chat {
+  scroll-behavior: smooth;
 }
